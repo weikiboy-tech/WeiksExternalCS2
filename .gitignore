@@ -1,0 +1,13 @@
+# Public repository allowlist.
+# Keep this folder documentation-only by default.
+*
+
+!.gitignore
+!.gitattributes
+!README.md
+!SECURITY.md
+!CHANGELOG.md
+!PUBLISHING.md
+!LICENSE
+!.github/
+!.github/**
