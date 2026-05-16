@@ -68,7 +68,7 @@ Kept private:
 
 ## Owner Notes
 
-Recommended owner workflow:
+Recommended owner workflow remember if too high: 
 
 1. Build the private client locally.
 2. Keep the license generator private.
