@@ -1,107 +1,103 @@
 <p align="center">
   <h1 align="center">WeikExternalCs2</h1>
-  <p align="center">Private Windows overlay client with a polished dark/gold interface and owner-controlled license access.</p>
+  <p align="center">Private Windows CS2 overlay with license-gated access, modern UI controls, and owner-managed distribution.</p>
 </p>
 
 ---
 
 ## Overview
 
-WeikExternalCs2 is a private Windows desktop overlay client focused on a clean premium interface, fast configuration access, and controlled distribution through signed license keys.
+WeikExternalCs2 is a private desktop overlay client for CS2 focused on usability, clean visuals, and controlled access.
 
-This repository is the public product page only. It does not contain source code, internal tooling, private signing keys, customer license files, or build artifacts.
+This repository is a public information page only. It does not contain source code, signing material, internal tooling, customer keys, or private build assets.
 
-## Current Status
+## Project Status
 
 | Area | Status |
 | --- | --- |
 | Product | Private build |
-| Access | License required |
-| Releases | Owner controlled |
+| Access | Signed license required |
 | Source code | Private |
+| Release flow | Owner controlled |
 | License generator | Private |
-| Customer keys | Created manually |
 
-## Interface
+## Feature Overview
 
-The client uses a custom dark/gold overlay style designed around compact controls, clear tab navigation, and fast in-app configuration.
+### Rage
+- Aim assist controls
+- Adjustable FOV and smoothing
+- Bone selection
+- RCS controls
+- Keybind configuration
+
+### Visuals
+- ESP box and corner box variants
+- Health, name, weapon, and flag rendering
+- Bomb carrier indicator
+- Skeleton ESP controls
+- Advanced box style editor
+- Ground item controls:
+  - Ground weapons toggle
+  - Ground grenades + Zeus toggle
+  - Pistol exclusion for ground rendering
+  - Compact marker style for dropped items
+
+### Radar
+- Round overlay radar
+- Adjustable radar size
+- Adjustable radar radius
+- Corner positioning
+- In-UI guidance for ingame radar zoom alignment
+
+### Misc / Config
+- Triggerbot controls
+- Adjustable trigger delay
+- BunnyHop toggle
+- Centralized keybind management
+- Save / reload / reset defaults
+
+## Interface and UX
+
+The overlay uses a compact dark/gold design language with tab-based navigation and fast in-app tuning.
 
 Highlights:
-
-- Premium dark/gold visual style
-- Compact tab-based menu layout
-- Live configuration controls
-- Custom startup defaults
-- Keybind support
-- Save, reload, and reset workflow
-- Signed startup license check
-- Optional machine-bound access
-- Optional time-limited access
+- Structured tabs for Rage, Visuals, Radar, Misc, and Config
+- Live updates from UI controls
+- Quick startup defaults and profile-style behavior
+- Practical control density for ingame adjustments
 
 ## License Activation
 
-Access is controlled with signed offline license files.
+Access is controlled through signed offline license files.
 
-1. A user starts the client.
-2. If no valid license is available, the client displays a Machine ID.
-3. The user sends the Machine ID to the owner.
-4. The owner creates a matching license file.
-5. The user places the received `license.key` next to the application.
-6. The client starts only when the license is valid.
+1. Start the client.
+2. If no valid license is present, the client shows a Machine ID.
+3. Send the Machine ID to the owner.
+4. Receive the signed license file.
+5. Place `license.key` next to the application.
+6. Start again with valid license.
 
-Licenses can be created after release. They do not need to be generated before publishing a build.
+## Security and Privacy Model
 
-## Distribution Model
+This public repository is intentionally limited to product information.
 
-The public repository is intentionally minimal. The build, private tools, and license generator stay outside this repository.
-
-Kept private:
-
+Never published here:
 - application source code
-- release binaries unless distributed manually by the owner
-- license generator
 - private signing key
-- generated customer license files
-- debug symbols
+- license generator
+- customer license files (`license.key`, `*.key`)
+- debug symbols (`.pdb`)
 - internal build output
-- customer Machine IDs
 
-## Owner Notes
+See [SECURITY.md](SECURITY.md) for more details.
 
-Recommended owner workflow remember if too high: 
+## Community / Support
 
-1. Build the private client locally.
-2. Keep the license generator private.
-3. Distribute the client only through the chosen private release channel.
-4. Let users send their Machine ID after first start.
-5. Create licenses manually per user.
-6. Prefer short license durations for better access control.
-
-## Security
-
-The public repository is designed to reveal as little as possible. It is a public presentation page, not an open-source repository.
-
-Important rules:
-
-- never publish the license generator
-- never publish the private signing key
-- never publish `license.key`
-- never publish customer `.key` files
-- never publish debug `.pdb` files
-- never publish old test builds by accident
-- never push internal source folders into this public repository
-
-More details are listed in [SECURITY.md](SECURITY.md).
-
-## Support
-
-Access, renewal, and license questions are handled privately by the project owner.
-
-Discord:
-[https://discord.gg/yNSr2Jycbh](https://discord.gg/yNSr2Jycbh)
+For access and support requests:
+- Discord: [https://discord.gg/yNSr2Jycbh](https://discord.gg/yNSr2Jycbh)
 
 ## Repository Notice
 
-This repository is not open source. It is provided as a public information page for WeikExternalCs2.
+This repository is not open source. It is a public-facing project page for WeikExternalCs2.
 
 All rights reserved.
