@@ -66,6 +66,12 @@ Highlights:
 - Quick startup defaults and profile-style behavior
 - Practical control density for ingame adjustments
 
+## Screenshots
+
+| Overlay Menu | Ingame Overlay |
+| --- | --- |
+| ![Overlay Menu](https://raw.githubusercontent.com/weikiboy-tech/WeiksExternalCS2/main/.github/ISSUE_TEMPLATE/Screenshot%202026-05-18%20213935.png) | ![Ingame Overlay](https://raw.githubusercontent.com/weikiboy-tech/WeiksExternalCS2/main/.github/ISSUE_TEMPLATE/Screenshot%202026-05-18%20214951.png) |
+
 ## License Activation
 
 Access is controlled through signed offline license files.
