@@ -97,6 +97,9 @@ More details are listed in [SECURITY.md](SECURITY.md).
 
 Access, renewal, and license questions are handled privately by the project owner.
 
+Discord:
+[https://discord.gg/yNSr2Jycbh](https://discord.gg/yNSr2Jycbh)
+
 ## Repository Notice
 
 This repository is not open source. It is provided as a public information page for WeikExternalCs2.
