@@ -170,12 +170,11 @@ WeiksExternalCS2 features a polished, professional interface:
 
 ## Screenshots
 
-| Feature | Link |
-|---------|------|
-| Overlay Settings | ![See in Discord](https://img.shields.io/badge/View-Discord-5865F2?style=flat-square) [Screenshots in Discord](https://discord.gg/6VGcTJr48s) |
-| Ingame Overlay | ![See in Discord](https://img.shields.io/badge/View-Discord-5865F2?style=flat-square) [Screenshots in Discord](https://discord.gg/6VGcTJr48s) |
+### Overlay Settings UI
+![Overlay Settings](.github/ISSUE_TEMPLATE/Screenshot%202026-05-18%20213935.png)
 
-*Screenshots are available in our [Discord community](https://discord.gg/6VGcTJr48s) for license holders.*
+### Ingame Overlay
+![Ingame Overlay](.github/ISSUE_TEMPLATE/Screenshot%202026-05-18%20214951.png)
 
 ---
 
