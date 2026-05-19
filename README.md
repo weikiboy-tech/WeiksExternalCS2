@@ -17,7 +17,7 @@
 
 ## Overview
 
-**WeiksExternalCS2** is a private Windows CS2 overlay project focused on a clean, fully external architecture. The client is designed to remain completely external to the game process and relies exclusively on read-only memory access.
+**WeiksExternalCS2** is a private Windows CS2 overlay project focused on a clean, fully external architecture. The client is designed to remain completely external to the game process and relies on read-only memory access to track game state.
 
 This project does **not** use memory writing, injection, DLL mapping, or internal hooks. It operates as a standalone overlay with independent rendering and provides a polished, owner-controlled experience.
 
@@ -172,10 +172,10 @@ WeiksExternalCS2 features a polished, professional interface:
 
 | Feature | Link |
 |---------|------|
-| Overlay Settings | Available in private build |
-| Ingame Overlay | Available in private build |
+| Overlay Settings | ![See in Discord](https://img.shields.io/badge/View-Discord-5865F2?style=flat-square) [Screenshots in Discord](https://discord.gg/6VGcTJr48s) |
+| Ingame Overlay | ![See in Discord](https://img.shields.io/badge/View-Discord-5865F2?style=flat-square) [Screenshots in Discord](https://discord.gg/6VGcTJr48s) |
 
-*Screenshots are provided to license holders. Public previews maintain privacy of the implementation.*
+*Screenshots are available in our [Discord community](https://discord.gg/6VGcTJr48s) for license holders.*
 
 ---
 
@@ -190,7 +190,7 @@ WeiksExternalCS2 uses an offline signed license system:
    - Client displays your Machine ID
 
 3. **Send Machine ID to owner**
-   - Provide the displayed Machine ID to the project maintainer
+   - Provide the displayed Machine ID to the project maintainer in [Discord](https://discord.gg/6VGcTJr48s)
 
 4. **Receive signed license**
    - Owner generates and sends a signed license file
@@ -220,9 +220,15 @@ All distribution, signing, and licensing is controlled privately by the owner.
 
 ---
 
-## Support
+## Support & Community
 
-For access inquiries or support, contact the project owner directly.
+**Join our Discord for:**
+- License activation support
+- Screenshots and feature showcase
+- Community updates
+- Direct support from the owner
+
+👉 **[Discord Community](https://discord.gg/6VGcTJr48s)**
 
 ---
 
