@@ -17,7 +17,7 @@
 
 ## Overview
 
-**WeiksExternalCS2** is a private Windows CS2 overlay project focused on a clean, fully external architecture. The client is designed to remain completely external to the game process and relies on read-only memory access to track game state.
+**WeiksExternalCS2** is a private Windows CS2 overlay project focused on a clean, fully external architecture. The client is designed to remain completely external to the game process and relies on read-only memory access to gather game state information.
 
 This project does **not** use memory writing, injection, DLL mapping, or internal hooks. It operates as a standalone overlay with independent rendering and provides a polished, owner-controlled experience.
 
@@ -46,6 +46,28 @@ Many public CS2 external bases suffer from poor architecture, inconsistent maint
 
 ---
 
+## Release Status & Version History
+
+| Version | Type | Status | Features | Release Date |
+|---------|------|--------|----------|--------------|
+| **Test Build** | Test Release | Available | Core framework without Rage features | May 20, 2026 |
+| **Full Version** | Private | Signed License Required | Complete feature set (Rage, Visuals, Radar, Misc) | Available on Discord |
+
+### Current Test Release
+
+A **public test build** is available without Rage (aim assistance) features. This test version allows you to:
+- Experience the fully external architecture
+- Test the Visual ESP system
+- Try the Radar overlay
+- Evaluate the configuration UI and keybind system
+- Assess overall stability and performance
+
+**To access the complete version with all features**, join our [Discord community](https://discord.gg/6VGcTJr48s) and contact the owner for a signed license.
+
+See [Releases](https://github.com/weikiboy-tech/WeiksExternalCS2/releases) for the latest test build downloads.
+
+---
+
 ## Architecture Focus
 
 | Component | Implementation |
@@ -59,7 +81,7 @@ Many public CS2 external bases suffer from poor architecture, inconsistent maint
 | **Offset Handling** | Automatic offset update system |
 | **Configuration** | Save, reload, reset, and tune settings in UI |
 | **Distribution** | Private / owner controlled |
-| **Access** | Signed license required |
+| **Access** | Signed license required for full version |
 | **Source Code** | Private |
 
 ---
@@ -68,9 +90,9 @@ Many public CS2 external bases suffer from poor architecture, inconsistent maint
 
 | Aspect | Status |
 |--------|--------|
-| **Product** | Private build |
+| **Product** | Private build with public test release |
 | **Repository** | Public information page |
-| **Access** | Signed license required |
+| **Access** | Test build available; signed license required for full version |
 | **Source Code** | Private |
 | **Release Flow** | Owner controlled |
 | **License Generator** | Private |
@@ -93,7 +115,7 @@ The foundation of WeiksExternalCS2 is built on a fully external model:
 
 ### Auto Offset Update
 
-CS2 updates regularly change memory offsets, and outdated overlay projects often break after patches. WeiksExternalCS2 includes an **automatic offset update system** designed to reduce manual maintenance:
+CS2 updates regularly change memory offsets, and outdated overlay projects often break after patches. WeiksExternalCS2 includes an **automatic offset update system** designed to reduce manual maintenance.
 
 - **Automatic offset refresh workflow** – Reduces downtime after game updates
 - **Less manual maintenance** – Private build receives offset updates without user intervention
@@ -102,7 +124,7 @@ CS2 updates regularly change memory offsets, and outdated overlay projects often
 
 ### Rage
 
-Aim assistance features with full configurability:
+Aim assistance features with full configurability (Full version only):
 
 - Aim assist controls
 - Adjustable FOV and smoothing
@@ -223,7 +245,8 @@ All distribution, signing, and licensing is controlled privately by the owner.
 
 **Join our Discord for:**
 - License activation support
-- Screenshots and feature showcase
+- Test build feedback
+- Feature showcase
 - Community updates
 - Direct support from the owner
 
